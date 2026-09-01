@@ -1,0 +1,8 @@
+let prompt = require ("prompt-sync")()
+let partie1 = +prompt("Entrez le score de la partie 1 : ")
+let partie2 = +prompt("Entrez le score de la partie 2 : ")
+let partie3 = +prompt("Entrez le score de la partie 3 : ")
+let partie4 = +prompt("Entrez le score de la partie 4 : ")
+let total = (partie1) + (partie2) + (partie3) + (partie4)
+console.log("Le score total est : " + total)
+console.log("Le score moyen est : " + (total / 4))
